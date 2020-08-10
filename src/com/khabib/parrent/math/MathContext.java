@@ -1,4 +1,4 @@
-package com.khabib.pattern;
+package com.khabib.parrent.math;
 
 import com.khabib.pattern.math.strategies.MathOperationStrategy;
 
