@@ -1,4 +1,4 @@
-package com.khabib.patten.duck.strategies;
+package com.khabib.pattern.duck.strategies;
 
 public class ConcreteMildQuackStrategy implements DuckQuackStrategy {
 

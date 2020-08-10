@@ -1,10 +1,10 @@
-package com.khabib.pattern;
+package com.khabib.main;
 
 import java.util.Scanner;
 
-import com.khabib.parrent.math.MathContext;
 import com.khabib.pattern.duck.Duck;
 import com.khabib.pattern.duck.RubberDuck;
+import com.khabib.pattern.math.MathContext;
 import com.khabib.pattern.math.strategies.ConcreteAddStrategy;
 import com.khabib.pattern.math.strategies.ConcreteDivisonStrategy;
 import com.khabib.pattern.math.strategies.ConcreteMultiplyStrategy;
@@ -13,8 +13,8 @@ import com.khabib.pattern.math.strategies.ConcreteSubStrategy;
 public class StrategyPattern {
 
 	public static void main(String[] args) {
-		//mathPatterCheck();
-		duckPatterCheck();
+		mathPatterCheck();
+		//duckPatterCheck();
 	}
 	
 	private static void duckPatterCheck() {
@@ -31,6 +31,7 @@ public class StrategyPattern {
 
 		Scanner scanner = new Scanner(System.in);
 
+		System.out.println("Enter number: ");
 		float number1 = scanner.nextFloat();
 		float number2 = scanner.nextFloat();
 

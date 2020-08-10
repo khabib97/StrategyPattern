@@ -1,6 +1,6 @@
 package com.khabib.pattern.duck;
 
-import com.khabib.patten.duck.strategies.*;
+import com.khabib.pattern.duck.strategies.*;
 
 public class RubberDuck extends Duck{
 	
